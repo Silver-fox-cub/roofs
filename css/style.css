@@ -290,6 +290,7 @@ a.bottom-form__text {
 .footer__row {
     width: 100%;
     display: flex;
+    margin: 0 0 147px;
 }
 
 .footer__main-column {
