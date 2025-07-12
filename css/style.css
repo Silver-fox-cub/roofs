@@ -24,6 +24,7 @@
     font-size: 60px;
     font-weight: 700;
     line-height: 80px;
+    margin: 0;
 }
 
 .section-heading {
@@ -80,7 +81,7 @@ input::placeholder {
 }
 
 .header_container {
-    padding: 50px;
+    padding: 45px 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -112,6 +113,7 @@ input::placeholder {
 
 .header__callback {
     margin: 0 0 0 40px;
+    color: #FC420A;
 }
 
 .header__menu {
@@ -120,7 +122,9 @@ input::placeholder {
     align-items: center;
 }
 
-.header__menu-text {}
+.header__menu-text {
+    margin: 0;
+}
 
 .header__menu-img {
     margin: 0 0 0 20px;
