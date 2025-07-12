@@ -169,8 +169,32 @@ input::placeholder {
     line-height: 1.15;
 }
 
+.articles__bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .articles-date {
     margin: 0;
+}
+
+.articles__read-more {
+    display: none;
+}
+
+.articles-item:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+.articles-item:hover .articles-heading {
+    color: #FFF;
+}
+
+.articles-item:hover .articles__bottom-row a.articles__read-more {
+    display: unset;
+    color: #FC420A;
+    text-decoration: none;
 }
 
 .bottom-form {
