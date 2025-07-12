@@ -153,6 +153,10 @@ input::placeholder {
     margin: 0 0 30px;
 }
 
+.articles-item:first-child {
+    margin: 50px 0 30px;
+}
+
 .articles-text {
     margin: 10px 0 97px;
 }
