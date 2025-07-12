@@ -23,7 +23,6 @@
     font-family: "TT Commons";
     font-size: 60px;
     font-weight: 700;
-    line-height: 80px;
     margin: 0;
 }
 
@@ -143,6 +142,7 @@ input::placeholder {
 .articles__heading {
     text-transform: uppercase;
     width: 100%;
+    line-height: 1;
 }
 
 .articles-item {
