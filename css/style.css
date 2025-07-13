@@ -368,6 +368,7 @@ a.bottom-form__text {
 
 .footer__text {
     color: #FFF;
+    margin: 0;
 }
 
 .footer__right-column {
