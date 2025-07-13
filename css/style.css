@@ -74,7 +74,7 @@
     line-height: 80px;
     text-align: center;
     border: none;
-    margin: 50px 0 0;
+    /* margin: 50px 0 0; */
     /* width: fit-content; */
     text-transform: uppercase;
 }
@@ -246,6 +246,10 @@ input::placeholder {
     height: 2px;
     background-color: #000;
     margin: 20px 0 0;
+}
+
+.bottom-form__submit {
+    margin: 46px 0 0;
 }
 
 .bottom-form__body hr:last-of-type {
