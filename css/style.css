@@ -305,13 +305,13 @@ a.bottom-form__text {
 }
 
 .bottom-form__contacts:first-child {
-    margin: 100px 0 0;
+    margin: 95px 0 0;
 }
 
 .text-heading {}
 
 .bottom-form__contact-info {
-    margin: 6px 0 0;
+    margin: 8px 0 0;
     color: #FFF;
     text-decoration: none;
 }
