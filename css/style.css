@@ -238,7 +238,7 @@ input::placeholder {
     margin: 20px 0 0;
 }
 
-.bottom-form__hr:last-child {
+.bottom-form__body hr:last-of-type {
     margin: 0;
 }
 
