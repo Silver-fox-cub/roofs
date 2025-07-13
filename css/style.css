@@ -349,7 +349,7 @@ a.bottom-form__text {
 .footer__row {
     width: 100%;
     display: flex;
-    margin: 0 0 160px;
+    margin: 0 0 147px;
 }
 
 .footer__main-column {
@@ -368,7 +368,8 @@ a.bottom-form__text {
 
 .footer__text {
     color: #FFF;
-    margin: 0 0 4px;
+    margin: 8px 0 0;
+    line-height: 1;
 }
 
 .footer__text:hover {
@@ -404,6 +405,14 @@ a.big-buttons-text {
 .footer__copyright-column {
     color: #FFF;
     max-width: 765px;
+}
+
+.footer__copyright-column .text {
+    margin: 0 0 35px;
+}
+
+.footer__copyright-column:last-child {
+    margin: 0;
 }
 
 .footer__copyright {}
