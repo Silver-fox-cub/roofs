@@ -756,6 +756,11 @@ a.big-buttons-text {
     margin: 0 8px 0 0;
 }
 
+.main-page__cover-btn:hover {
+    background: #FC420A;
+    color: #FFF;
+}
+
 .big-buttons-text {}
 
 .main-page__cover-big-btn {
@@ -826,11 +831,6 @@ a.big-buttons-text {
     color: #FFF;
 }
 
-.calculate__button-group button.active {
-    background-color: #fc420a;
-    color: #FFF;
-}
-
 .calculate__button-group {
     display: flex;
     flex-wrap: wrap;
@@ -844,6 +844,12 @@ a.big-buttons-text {
     border-radius: 100px;
     background-color: #fff;
     color: #FC420A;
+}
+
+.calculate__button:active,
+.calculate__button:hover {
+    background-color: #fc420a;
+    color: #FFF;
 }
 
 .calculate__roof-type {}
@@ -1455,12 +1461,6 @@ a.big-buttons-text {
 
     .main-page__cover-btn:last-child {
         border-width: 2px;
-    }
-
-    .main-page__cover-btn:hover,
-    .main-page__cover-bt:active {
-        background: #FFF;
-        color: #FC420A;
     }
 
     .big-buttons-text {}
