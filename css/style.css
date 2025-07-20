@@ -674,6 +674,9 @@ a.big-buttons-text {
 
 .main-page__cover {
     background-image: url(../img/main-page-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .header {}
