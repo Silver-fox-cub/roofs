@@ -783,6 +783,134 @@ a.big-buttons-text {
     margin: 10px 0 0;
 }
 
+.content-section {}
+
+.calculate {
+    background: #000;
+    margin: 0;
+    padding: 120px 135px;
+}
+
+.calculate__form {}
+
+.calculate__step1 {}
+
+.section-heading {}
+
+.calculate__heading {
+    color: #FFF;
+    margin: 0;
+}
+
+.text {}
+
+.calculate__subheading {
+    color: #FFF;
+    margin: 16px 0 0;
+}
+
+.calculate__section {
+    margin: 40px 0 0;
+}
+
+.calculate__work-types {
+    margin: 70px 0 0;
+}
+
+.text-heading {}
+
+.calculate__section-heading {
+    color: #FFF;
+}
+
+.calculate__button-group button.active {
+    background-color: #fc420a;
+    color: #FFF;
+}
+
+.calculate__button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 750px;
+    margin: 10px 0 0;
+}
+
+.calculate__button {
+    padding: 13px 30px;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #FC420A;
+}
+
+.calculate__roof-type {}
+
+.calculate__object-type {}
+
+.big-buttons-text {}
+
+.calculate__big-button {
+    margin: 80px 0 0;
+}
+
+.calculate__step2 {
+    flex-direction: column;
+    max-width: 570px;
+}
+
+.calculate__name {
+    margin: 70px 0 0;
+    background-color: #000;
+    color: #FFF;
+    border: none;
+}
+
+.calculate__hr {
+    border: none;
+    height: 2px;
+    background-color: #FFF;
+    margin: 20px 0 0;
+}
+
+.calculate__tel {
+    margin: 40px 0 0;
+    background-color: #000;
+    color: #FFF;
+    border: none;
+}
+
+.calculate__comment {
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    height: 100px;
+    margin: 40px 0 0;
+}
+
+.calculate__checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.calculate__privacy {
+    color: #FFF;
+    margin: 20px 0 0;
+    display: flex;
+}
+
+.calculate__big-button-submit {
+    margin: 180px 0 0;
+}
+
+.calculate__select {
+    display: none;
+}
+
+.calculate__select.error {
+    border: 2px solid #FC420A;
+    border-radius: 100px;
+}
+
 @media (max-width: 1024px) {
     .main-heading {
         font-size: 30px;
@@ -1360,5 +1488,97 @@ a.big-buttons-text {
 
     .advantages__text {
         margin: 10px 0 0;
+    }
+
+    .calculate {
+        padding: 70px 30px 0;
+    }
+
+    .calculate__form {}
+
+    .calculate__step1 {}
+
+    .section-heading {}
+
+    .calculate__heading {}
+
+    .text {}
+
+    .calculate__subheading {
+        font-size: 14px;
+        margin: 10px 0 0;
+    }
+
+    .calculate__section {
+        margin: 30px 0 0;
+    }
+
+    .calculate__work-types {
+        margin: 40px 0 0;
+    }
+
+    .text-heading {}
+
+    .calculate__section-heading {}
+
+    .calculate__button-group {}
+
+    .calculate__button {}
+
+    .calculate__select {}
+
+    .calculate__roof-type {}
+
+    .calculate__object-type {}
+
+    .big-buttons-text {}
+
+    .calculate__big-button {
+        background-color: #FC420A;
+    }
+
+    .calculate__step2 {}
+
+    .calculate__name {}
+
+    .calculate__hr {}
+
+    .calculate__tel {}
+
+    .calculate__comment {}
+
+    .calculate__privacy {}
+
+    .calculate__checkbox {}
+
+    .calculate__big-button-submit {
+        background-color: #FC420A;
+    }
+
+    .calculate__button-group {
+        display: none;
+    }
+
+    .calculate__select {
+        display: block;
+        width: 315px;
+        max-width: 100%;
+        padding: 13px 30px;
+        margin: 10px 0 0;
+        font-family: "TT Commons";
+        font-size: 14px;
+        color: #000;
+        background-color: #fff;
+        border: 2px solid #fff;
+        border-radius: 100px;
+
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FC420A' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 16px center;
+        background-size: 16px;
     }
 }
