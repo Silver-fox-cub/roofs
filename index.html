@@ -16,7 +16,10 @@
         <header class="header main-page__header">
             <div class="header_container">
                 <div class="header__left">
-                    <img src="img/logo.svg" alt="" class="header__logo logo">
+                    <svg class="header__logo" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                        viewBox="0 0 12 12">
+                        <polygon points="6,0 12,6 6,12 0,6" fill="currentColor" />
+                    </svg>
                     <p class="header__company-name menu-text">название компании</p>
                 </div>
                 <div class="header__right">
@@ -26,11 +29,36 @@
                     </div>
                     <a class="header__menu">
                         <p class="header__menu-text menu-text">меню</p>
-                        <img src="img/menu_icon.svg" alt="" class="header__menu-img">
+                        <!-- <img src="img/menu_icon.svg" alt="" class="header__menu-img"> -->
+                        <svg class="header__menu-img" xmlns="http://www.w3.org/2000/svg" width="31" height="31"
+                            viewBox="0 0 31 31" fill="currentColor ">
+                            <rect x="18.2129" y="18.2131" width="12" height="12" fill="currentColor " />
+                            <rect x="18.2129" y="0.213135" width="12" height="12" fill="currentColor " />
+                            <rect x="0.212891" y="0.213135" width="12" height="12" fill="currentColor " />
+                            <rect x="0.212891" y="18.2131" width="12" height="12" fill="currentColor " />
+                        </svg>
                     </a>
                 </div>
             </div>
         </header>
+
+        <!-- Полноэкранное меню, скрыто по умолчанию -->
+        <div class="fullscreen-menu" id="fullscreenMenu">
+            <nav class="fullscreen-menu__nav">
+                <ul class="fullscreen-menu__list">
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="#">Выполненные работы</a></li>
+                    <li><a href="#">Расчет вашего объекта</a></li>
+                    <li><a href="articles.html">Блог о кровлях</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="fullscreen-menu__footer">
+                    <a href="tel:+74952053400" class="fullscreen-menu__phone">+7 (495) 205-34-00</a>
+                    <a href="#" class="big-buttons-text fullscreen-menu__btn">Сделать расчет</a>
+                </div>
+            </nav>
+        </div>
+
         <div class="main-page__cover-body">
             <h1 class="main-heading main-page__heading">Выполняем все виды кровельных работ</h1>
             <p class="text main-page__cover-text">Монтаж и ремонт с гарантией до 5 лет, укладываясь в срок за цены ниже
@@ -407,6 +435,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/menu.js"></script>
     <script src="js/articles-slider.js"></script>
     <script src="js/objects-slider.js"></script>
     <script src="js/multi-step-form.js"></script>
